@@ -6,6 +6,12 @@ import com.jjrodcast.patterns.interfaces.PeopleView
 import com.jjrodcast.patterns.models.Person
 import com.jjrodcast.patterns.presenters.PeoplePresenter
 
+
+// TODO("Tasks")
+/**
+ * 1. Add views to show a list of people (modify the activity_main)
+ * 2. Implement the logic to populate the list of people
+ */
 class MainActivity : AppCompatActivity(), PeopleView {
 
     private val presenter by lazy { PeoplePresenter(this) }
