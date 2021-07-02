@@ -7,6 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.jjrodcast.patterns.model.PeopleRepository
 import com.jjrodcast.patterns.view.State
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 
