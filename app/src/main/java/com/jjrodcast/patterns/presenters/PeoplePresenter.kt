@@ -10,6 +10,7 @@ class PeoplePresenter(
 
     private val interactor: PeopleInteractor by lazy { PeopleInteractor(PeopleDataRepository()) }
 
+    // TODO("HAcer una actualizacion de los datos")
     fun getPeople() {
         interactor.getPeople()
     }
