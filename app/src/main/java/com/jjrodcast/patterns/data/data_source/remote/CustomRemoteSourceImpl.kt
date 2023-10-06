@@ -3,7 +3,6 @@ package com.jjrodcast.patterns.data.data_source.remote
 import com.jjrodcast.patterns.core.message.DataResult
 import com.jjrodcast.patterns.data.data_source.remote.dto.CustomResponse
 import com.jjrodcast.patterns.data.data_source.remote.interfaces.CustomRemoteSource
-import com.jjrodcast.patterns.domain.models.CustomResult
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.Types
 

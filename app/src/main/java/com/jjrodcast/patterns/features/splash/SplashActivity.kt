@@ -4,7 +4,6 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import com.jjrodcast.patterns.core.ui.BaseActivity
 import com.jjrodcast.patterns.databinding.ActivitySplashBinding
-import com.jjrodcast.patterns.features.di.CustomUIInjector
 import com.jjrodcast.patterns.core.extensions.createFactory
 
 

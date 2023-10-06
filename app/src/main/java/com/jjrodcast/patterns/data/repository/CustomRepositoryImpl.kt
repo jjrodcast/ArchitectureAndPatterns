@@ -3,7 +3,6 @@ package com.jjrodcast.patterns.data.repository
 import com.jjrodcast.patterns.core.message.DataResult
 import com.jjrodcast.patterns.data.data_source.remote.interfaces.CustomRemoteSource
 import com.jjrodcast.patterns.data.repository.interfaces.CustomRepository
-import com.jjrodcast.patterns.domain.models.CustomResult
 
 internal class CustomRepositoryImpl(private val customRemoteSource: CustomRemoteSource) : CustomRepository {
 

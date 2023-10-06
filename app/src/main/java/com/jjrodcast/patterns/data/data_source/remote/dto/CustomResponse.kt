@@ -1,6 +1,5 @@
 package com.jjrodcast.patterns.data.data_source.remote.dto
 
-import com.jjrodcast.patterns.domain.models.CustomResult
 import com.squareup.moshi.Json
 
 internal data class CustomResponse(
